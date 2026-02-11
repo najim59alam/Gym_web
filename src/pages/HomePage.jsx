@@ -36,7 +36,7 @@ return (
 <div className="section">
   <h2>Contact Us</h2>
   <p>📍 Mithilesh Market, Ramvilas Chowk, Patna</p>
-  <a className="btn" href="tel:+9608613251">Call Now</a>
+  <a className="btn" href="tel:+9190318 08915">Call Now</a>
 </div>
 
 <footer>
