@@ -1,51 +1,48 @@
 import './HomePage.css'
+import hulk1 from '../assets/hulk1.jpg'
+import hulk2 from '../assets/hulk2.jpg'
+import hulk3 from '../assets/hulk3.jpg'
+
 function HomePage(){
 return (
 <div className="heroSection">
+
 <header>
   <h1>Hulk Fitness Gym</h1>
-  <p>Mithilesh Market, Ramvilas Chowk, Mithapur, Patna</p>
-  <a class="btn" href="tel:+91XXXXXXXXXX">Call Now</a>
-  <a class="btn" href="https://wa.me/91XXXXXXXXXX">WhatsApp</a>
-</header><section>
-  <h2>About Our Gym</h2>
+  <p>Mithapur, Patna | Muscle & Strength Training</p>
+</header>
+
+<div className="hero">
+  <h2>Build Your Body Like Hulk 💪</h2>
+</div>
+
+<div className="section">
+  <h2>About Us</h2>
   <p>
-    Hulk Fitness Gym ek modern aur fully-equipped gym hai jahan aapko 
-    strength training, cardio aur personal training ki best facilities milti hain. 
-    Hamara goal hai aapko fit, strong aur confident banana.
+    We focus on bodybuilding, strength training and complete body transformation.
+    Modern equipment, professional trainers and energetic environment.
   </p>
-</section><section>
-  <h2>Our Services</h2>
-  <div className="services">
-    <div className="card">
-      <h3>Weight Training</h3>
-      <p>Advanced machines aur free weights ke saath professional training.</p>
-    </div>
-    <div className="card">
-      <h3>Cardio Training</h3>
-      <p>Treadmill, cycling aur fat loss focused workouts.</p>
-    </div>
-    <div className="card">
-      <h3>Personal Training</h3>
-      <p>Certified trainer ke saath one-to-one guidance.</p>
-    </div>
-    <div class="card">
-      <h3>Body Transformation</h3>
-      <p>Weight loss aur muscle gain ke liye special programs.</p>
-    </div>
+</div>
+
+<div className="section">
+  <h2>Our Facilities</h2>
+  <div className="gallery">
+    <img src={hulk1} alt="Gym 1"/>
+    <img src={hulk2} alt="Gym 2"/>
+    <img src={hulk3} alt="Gym 3"/>
   </div>
-</section><section>
-  <h2>Timing</h2>
-  <p>Monday – Sunday</p>
-  <p><strong>Morning:</strong> 5:00 AM – 11:00 AM</p>
-  <p><strong>Evening:</strong> 4:00 PM – 11:00 PM</p>
-</section><section>
-  <h2>Location</h2>
-  <p>Mithilesh Market, near Ramvilas Chowk, Indra Nagar, Mithapur, Patna, Bihar</p>
-  <a class="btn" href="#">Open in Google Maps</a>
-</section><footer>
-  <p>© 2026 Hulk Fitness Gym | Designed by Demo Developer</p>
+</div>
+
+<div className="section">
+  <h2>Contact Us</h2>
+  <p>📍 Mithilesh Market, Ramvilas Chowk, Patna</p>
+  <a className="btn" href="tel:+9608613251">Call Now</a>
+</div>
+
+<footer>
+  © 2026 Hulk Fitness Gym | Designed by Najim Alam
 </footer>
+
 </div>
 )
 }
