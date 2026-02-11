@@ -16,16 +16,16 @@ return (
   </p>
 </section><section>
   <h2>Our Services</h2>
-  <div class="services">
-    <div class="card">
+  <div className="services">
+    <div className="card">
       <h3>Weight Training</h3>
       <p>Advanced machines aur free weights ke saath professional training.</p>
     </div>
-    <div class="card">
+    <div className="card">
       <h3>Cardio Training</h3>
       <p>Treadmill, cycling aur fat loss focused workouts.</p>
     </div>
-    <div class="card">
+    <div className="card">
       <h3>Personal Training</h3>
       <p>Certified trainer ke saath one-to-one guidance.</p>
     </div>
